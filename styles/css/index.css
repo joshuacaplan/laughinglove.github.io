@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 1em;
+}
+header .burgernav i {
+  font-size: 3em;
+}
+header .navmain {
+  overflow: hidden;
+  display: none;
+}
+header .navmain a {
+  color: white;
+  text-decoration: none;
+}
+header .navmain a:hover {
+  color: lightskyblue;
+}
+header .open {
+  display: block;
+}
+
+#YouTube {
+  display: inline;
+}
+
+body {
+  background-color: #222;
+  color: white;
+}
+
+.main {
+  text-align: center;
+}
+.main .title h1 {
+  margin: 1em;
+  border-bottom: 0.2em solid white;
+}
+
+.aboutme {
+  margin: 1em;
+}
+.aboutme div {
+  padding: 1em;
+}
+
+.contact .title {
+  margin-left: 5em;
+  margin-right: 5em;
+  padding: 1em;
+}
+.contact .title h3 {
+  border-bottom: 0.2em solid white;
+}
+
+.contactitems {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em;
+  margin: 1em;
+}
+.contactitems i {
+  font-size: 5em;
+}
+.contactitems a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.css.map */

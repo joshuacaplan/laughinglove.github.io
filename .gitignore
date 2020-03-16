@@ -1,0 +1,9 @@
+package.json
+package-lock.json
+.idea
+.idea/watcherTasks.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/laughinglove.github.io.iml
+.idea/codeStyles/codeStyleConfig.xml
