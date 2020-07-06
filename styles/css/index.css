@@ -7,7 +7,7 @@
 body {
   background-color: #222;
   color: white;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 header {
@@ -16,15 +16,15 @@ header {
   background-color: #6ce4fc;
 }
 header img {
-  width: 20em;
+  width: 18em;
   border-radius: 50%;
 }
-header p {
+header i {
   font-size: 0.6em;
 }
 header .title h1 {
   text-decoration: underline;
-  font-size: 2em;
+  font-size: 1.3em;
 }
 header .headertext {
   padding: 1em;
@@ -49,10 +49,6 @@ header #header-contact a:hover {
 .main {
   text-align: center;
 }
-.main #aboutmetitle {
-  border-bottom: 0.2em solid #fcfcfc;
-  border-bottom-color: white;
-}
 
 mark {
   background-color: rgba(250, 255, 130, 0.7);
@@ -69,10 +65,13 @@ mark a a:hover {
   margin: 1em;
   padding: 1em;
 }
+.aboutme #aboutmetitle {
+  border-bottom: 0.2em solid #fcfcfc;
+  border-bottom-color: white;
+}
 .aboutme #aboutmetext {
   padding: 1em;
   margin-top: 1em;
-  font-size: 0.8em;
 }
 
 .ec {
@@ -81,20 +80,13 @@ mark a a:hover {
 }
 .ec #ectitle {
   padding: 1em;
-  font-size: 2em;
   border-bottom: 0.3em solid white;
-}
-.ec #ecsubtitle {
-  font-size: 0.9em;
 }
 .ec ul {
   list-style-type: none;
 }
 .ec li {
   padding: 1em;
-}
-.ec li p {
-  font-size: 0.8em;
 }
 .ec .echeader {
   border-bottom: 0.3em solid white;
@@ -134,10 +126,6 @@ mark a a:hover {
 .skills ul {
   padding: 1.5em;
 }
-.skills p {
-  font-size: 0.8em;
-}
-
 .footer {
   margin: 1em;
   padding: 1em;
@@ -148,7 +136,6 @@ mark a a:hover {
 }
 .footer li {
   display: inline;
-  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=index.css.map */
