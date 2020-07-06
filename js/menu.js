@@ -10,10 +10,10 @@
 //     //     console.log("Hello");
 //     // })
 // };
-
-$(document).ready(function () {
-    $(".burgerbutton").on('click', function () {
-        console.log("hello");
-        $(".navmain").toggleClass("open");
-    })
-})
+//
+// $(document).ready(function () {
+//     $(".burgerbutton").on('click', function () {
+//         console.log("hello");
+//         $(".navmain").toggleClass("open");
+//     })
+// })

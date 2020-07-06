@@ -4,72 +4,151 @@
   font-family: "Poppins", sans-serif;
 }
 
-header {
-  padding: 1em;
-}
-header .burgernav i {
-  font-size: 3em;
-}
-header .navmain {
-  overflow: hidden;
-  display: none;
-}
-header .navmain a {
-  color: white;
-  text-decoration: none;
-}
-header .navmain a:hover {
-  color: lightskyblue;
-}
-header .open {
-  display: block;
-}
-
-#YouTube {
-  display: inline;
-}
-
 body {
   background-color: #222;
   color: white;
+  font-size: 1em;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  background-color: #6ce4fc;
+}
+header img {
+  width: 20em;
+  border-radius: 50%;
+}
+header p {
+  font-size: 0.6em;
+}
+header .title h1 {
+  text-decoration: underline;
+  font-size: 2em;
+}
+header .headertext {
+  padding: 1em;
+  font-size: 1.7em;
+}
+header #header-contact {
+  padding: 1em;
+}
+header #header-contact li {
+  display: inline;
+  padding: 0.5em;
+  font-size: 2em;
+}
+header #header-contact a {
+  color: inherit;
+}
+header #header-contact a:hover {
+  color: #88fcf8;
+  border-bottom: 0.02em solid #88fcf8;
 }
 
 .main {
   text-align: center;
 }
-.main .title h1 {
-  margin: 1em;
-  border-bottom: 0.2em solid white;
+.main #aboutmetitle {
+  border-bottom: 0.2em solid #fcfcfc;
+  border-bottom-color: white;
+}
+
+mark {
+  background-color: rgba(250, 255, 130, 0.7);
+}
+mark a {
+  text-decoration: none;
+  color: white;
+}
+mark a a:hover {
+  text-decoration: underline;
 }
 
 .aboutme {
   margin: 1em;
-}
-.aboutme div {
   padding: 1em;
+}
+.aboutme #aboutmetext {
+  padding: 1em;
+  margin-top: 1em;
+  font-size: 0.8em;
 }
 
-.contact .title {
-  margin-left: 5em;
-  margin-right: 5em;
+.ec {
+  padding: 1em;
+  background-color: #02afff;
+}
+.ec #ectitle {
+  padding: 1em;
+  font-size: 2em;
+  border-bottom: 0.3em solid white;
+}
+.ec #ecsubtitle {
+  font-size: 0.9em;
+}
+.ec ul {
+  list-style-type: none;
+}
+.ec li {
   padding: 1em;
 }
-.contact .title h3 {
+.ec li p {
+  font-size: 0.8em;
+}
+.ec .echeader {
+  border-bottom: 0.3em solid white;
+}
+.ec #echeadertitle {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+.ec img {
+  margin: auto;
+  width: 10em;
+}
+
+.awards {
+  padding: 1em;
+}
+.awards h2 {
+  text-decoration: underline;
+  margin: 1em;
+}
+.awards #awardslist {
+  padding: 1em;
+}
+.awards #awardslist li {
+  list-style-type: none;
+  border-top: 0.2em solid white;
   border-bottom: 0.2em solid white;
 }
 
-.contactitems {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 1em;
+.skills {
+  padding: 1.3em;
+  background-color: #6ce4fc;
+}
+.skills h2 {
+  text-decoration: underline;
+}
+.skills ul {
+  padding: 1.5em;
+}
+.skills p {
+  font-size: 0.8em;
+}
+
+.footer {
   margin: 1em;
+  padding: 1em;
 }
-.contactitems i {
-  font-size: 5em;
+.footer ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.contactitems a {
-  color: white;
-  text-decoration: none;
+.footer li {
+  display: inline;
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=index.css.map */
