@@ -7,7 +7,7 @@
 body {
   background-color: #222;
   color: white;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 header {
@@ -15,28 +15,28 @@ header {
   text-align: center;
   background-color: #6ce4fc;
 }
-header #basicheaderinfo {
-  font-size: 0.8em;
-}
 header img {
   padding: 1em;
-  width: 12em;
+  width: 10em;
   border-radius: 50%;
 }
-header i {
-  font-size: 0.6em;
+header .headerphoto {
+  position: relative;
+}
+header .headerphoto:hover {
+  top: -5px;
+  filter: drop-shadow(6px 5px 2px #222);
 }
 header .title h1 {
   text-decoration: underline;
-  font-size: 1.3em;
 }
-header .headertext {
-  font-size: 1.7em;
+header #header-contact {
+  margin-top: 1em;
 }
 header #header-contact li {
   display: inline;
   padding: 0.5em;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 header #header-contact a {
   color: inherit;
@@ -55,7 +55,6 @@ header #header-contact a:hover {
 }
 .nav ul li {
   display: inline;
-  font-size: 1.3em;
 }
 .nav ul li a {
   color: white;
@@ -100,7 +99,7 @@ header #header-contact a:hover {
   padding: 1em;
 }
 .ec .echeader {
-  border-bottom: 0.3em solid white;
+  border-bottom: 0.1em solid white;
 }
 .ec #echeadertitle {
   font-size: 1.2em;
@@ -141,9 +140,18 @@ header #header-contact a:hover {
 .skills ul {
   padding: 1.5em;
 }
+.skills ul li {
+  list-style-position: inside;
+  text-decoration: underline;
+}
+.skills p {
+  margin-bottom: 1em;
+}
+
 .footer {
   margin: 1em;
   padding: 1em;
+  font-size: 0.8em;
 }
 .footer ul {
   display: grid;
@@ -165,10 +173,106 @@ mark a a:hover {
   text-decoration: underline;
 }
 
-@media (min-width: 500px) {
-  body {
+@media (min-width: 650px) {
+  #htextphoto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  header {
+    padding-top: 2em;
+  }
+
+  .nav {
+    font-size: 1.3em;
+  }
+
+  .footer {
     font-size: 1em;
-    color: green;
+  }
+}
+@media (min-width: 800px) {
+  .nav {
+    font-size: 1.5em;
+  }
+
+  #htextphoto {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .footer {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 900px) {
+  .aboutme {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #ecinnerdiv {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #awardsinnerdiv {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  #skillsinnerdiv {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1000px) {
+  #htextphoto {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1300px) {
+  .aboutme {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #ecinnerdiv {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #awardsinnerdiv {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  #skillsinnerdiv {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 2000px) {
+  #htextphoto {
+    width: 60em;
+  }
+
+  .aboutme {
+    width: 70em;
+  }
+
+  #ecinnerdiv {
+    width: 70em;
+  }
+
+  #awardsinnerdiv {
+    width: 50em;
+  }
+
+  #skillsinnerdiv {
+    width: 60em;
   }
 }
 
