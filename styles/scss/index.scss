@@ -17,16 +17,23 @@ header {
 	padding: 1em;
 	text-align: center;
 	background-color: $light-blue;
+	#basicheaderinfo {
+		font-size: 0.8em;
+	}
 	img {
-		width: 18em;
+		padding: 1em;
+		width: 12em;
 		border-radius: 50%;
 	}
+
 	i {
 		font-size: 0.6em;
 	}
+
 	p {
 		//font-size: 4em;
 	}
+
 	.title {
 		h1 {
 			text-decoration: underline;
@@ -34,70 +41,54 @@ header {
 		}
 
 	}
+
 	.headertext {
-		padding: 1em;
+		//padding: 1em;
 		font-size: 1.7em;
 	}
+
 	#header-contact {
-		padding: 1em;
+		//padding: 1em;
 		li {
 			display: inline;
 			padding: 0.5em;
 			font-size: 2em;
 		}
+
 		a {
 			color: inherit;
 		}
+
 		a:hover {
 			color: $hover-blue;
 			border-bottom: 0.02em solid $hover-blue;
 		}
 
 	}
-	//.burgernav {
-	//	i {
-	//		font-size: 3em;
-	//	}
-	//}
-	//.navmain {
-	//	overflow: hidden;
-	//	a {
-	//		color: white;
-	//		text-decoration: none;
-	//	}
-	//	a:hover {
-	//		color: lightskyblue;
-	//	}
-	//	//height: 0;
-	//	display: none;
-	//}
-	//.open {
-	//	//height: auto;
-	//	display: block;
-	//}
-
 }
-
-//#YouTube {
-//	display: inline;
-//}
-
-
-
 .main {
 	text-align: center;
 
 }
-mark {
-	background-color: rgba(250, 255, 130, 0.7);
-	a {
-		text-decoration: none;
-		color: white;
-		a:hover {
-			text-decoration: underline;
-		}
-	}
+.nav {
+	padding: 1em;
 
+	ul {
+		//list-style-type: none;
+		li {
+			display: inline;
+			font-size: 1.3em;
+			a {
+				color: white;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+				color: $hover-blue;
+			}
+		}
+
+	}
 }
 .aboutme {
 	margin: 1em;
@@ -113,6 +104,14 @@ mark {
 	}
 }
 .ec {
+	#eclist {
+		a {
+			color: white;
+		}
+		a:hover {
+			color: $hover-blue;
+		}
+	}
 	padding: 1em;
 	//margin: 1em;
 	background-color: $green-blue;
@@ -150,15 +149,22 @@ mark {
 	padding: 1em;
 	h2 {
 		text-decoration: underline;
-		margin: 1em;
+		//margin: 1em;
 	}
 	#awardslist {
 		padding: 1em;
 		li {
+			//padding: 1em;
 			list-style-type: none;
-			border-top: 0.2em solid white;
+			//border-top: 0.2em solid white;
 			border-bottom: 0.2em solid white;
 
+		}
+		a {
+			color: white;
+		}
+		a:hover {
+			color: $hover-blue;
 		}
 	}
 }
@@ -187,36 +193,22 @@ mark {
 		//font-size: 0.8em;
 	}
 }
-//.contact {
-//
-//	.title {
-//		margin-left: 5em;
-//		margin-right: 5em;
-//		padding: 1em;
-//		h3 {
-//
-//			border-bottom: .2em solid white;
-//
-//		}
-//	}
-//}
-//.contactitems {
-//	display: grid;
-//	grid-template-columns: 1fr 1fr 1fr;
-//	padding: 1em;
-//	margin: 1em;
-//	i {
-//		font-size:3em;
-//	}
-//	a {
-//		color: white;
-//		text-decoration: none;
-//	}
-//}
-//.mainwrapper {
-//	display: grid;
-//	grid-template-columns: 1fr 1fr;
-//}
-//@media screen (min) {
-//
-//}
+mark {
+	background-color: rgba(250, 255, 130, 0.7);
+	a {
+		text-decoration: none;
+		color: white;
+		a:hover {
+			color:white;
+			text-decoration: underline;
+		}
+	}
+
+}
+
+@media (min-width: 500px) {
+	body {
+		font-size: 1em;
+		color: green;
+	}
+}

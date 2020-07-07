@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Joshua Caplan</title>
     <link rel="stylesheet" href="./styles/css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -12,9 +13,11 @@
     <header class="header">
         <div class="headertext">
             <div class="title"><h1>Joshua Caplan</h1></div>
-            <p>📌 New York, USA</p>
-            <p>📅 17 years old</p>
-            <p>🖥️ Computer programmer & security enthusiast</p>
+            <div id="basicheaderinfo">
+                <p>📌 New York, USA</p>
+                <p>📅 17 years old</p>
+                <p>🖥️ Computer programmer & security enthusiast</p>
+            </div>
             <ul id="header-contact">
                 <li>
                     <a href="mailto:jokelovehate@gmail.com"><i class="fas fa-envelope"></i></a>
@@ -30,26 +33,17 @@
         <div class="headerphoto">
             <img src="./assets/josh-square.jpg" alt="Joshua Caplan">
         </div>
-        <!--            <div class="burgernav">-->
-        <!--                <i class="fas fa-bars burgerbutton"></i>-->
-        <!--            </div>-->
-        <!--            <nav class="navmain">-->
-        <!--                <a href="#"><h2>Joshua C</h2></a>-->
-        <!--                <ul>-->
-        <!--                    <li>-->
-        <!--                        <a href="#">About</a>-->
-        <!--                    </li>-->
-        <!--                    <li>-->
-        <!--                        <a href="#">Projects</a>-->
-        <!--                    </li>-->
-        <!--                    <li>-->
-        <!--                        <a href="#">Photography</a>-->
-        <!--                    </li>-->
-        <!--                    <li>-->
-        <!--                        <a href="https://www.youtube.com/channel/UCiAkBdxikSHu6zuQZnJB_yg/"><p id="YouTube">You</p><p style="color: crimson" id="YouTube"><b>Tube</b></p></a>-->
-        <!--                    </li>-->
-        <!--                </ul>-->
-        <!--            </nav>-->
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="#aboutmetitle">About</a> •
+                </li>
+                <li><a href="#ectitle">Extracurriculars</a></li> •
+                <li><a href="#awardstitle">Awards</a></li> •
+                <li><a href="#skillstitle">Skills</a></li>
+            </ul>
+        </nav>
+
     </header>
     <main class="main">
 
@@ -87,7 +81,7 @@
                             <h5 id="echeadertitle">Open Source Projects on GitHub</h5>
                             <div id="ecsubtitle">2017-</div>
                         </div>
-                        <p>On my <mark><a href="https://github.com/LaughingLove">GitHub</a></mark>, I have dozens of open-source repositories to show my portfolio of side projects that I have completed since 2017,
+                        <p>On my <a href="https://github.com/LaughingLove">GitHub</a>, I have dozens of open-source repositories to show my portfolio of side projects that I have completed since 2017,
                         and I am continuously adding more projects to my GitHub for the world to see.</p>
                     </li>
                     <li>
@@ -103,7 +97,7 @@
                             <h5 id="echeadertitle">National Honor Society</h5>
                             <div id="ecsubtitle">2019-</div>
                         </div>
-                        <p>At my schools chapter of <mark><a href="https://www.nhs.us/">NHS</a></mark> we strived to be the school's role model and leaders. We offer after-school tutoring sessions,
+                        <p>At my schools chapter of <a href="https://www.nhs.us/">NHS</a>, we strived to be the school's role model and leaders. We offer after-school tutoring sessions,
                             we help out at community events, and we help at school events. </p>
                     </li>
                     <li>
@@ -111,7 +105,7 @@
                             <h5 id="echeadertitle">French National Honor Society</h5>
                             <div id="ecsubtitle">2020-</div>
                         </div>
-                        <p>In my school's chapter of the <mark><a href="https://frenchteachers.org/promote-french/societe-honoraire-de-francais/">French Honor Society</a></mark> we want to promote
+                        <p>In my school's chapter of the <a href="https://frenchteachers.org/promote-french/societe-honoraire-de-francais/">French Honor Society</a> we want to promote
                         language of French in our school. We offer tutoring sessions for students who are struggling, and we organize events in coordination with the other language honor societies.</p>
                     </li>
                     <li>
@@ -132,16 +126,25 @@
                         <p>In history club, we discuss and present ideas about history and how it relates to our current political environment.</p>
                     </li>
                     <li>
+                        <div class="echeader">
+                            <div id="echeadertitle">Software Developer Intern at Madison</div>
+                            <div id="ecsubtitle">Summer of 2019</div>
+                        </div>
+                        <p>As an intern, I worked with <a href="https://www.madisonpg.com/">Madison</a>'s software development team to test out new innovative products and ideas for the future of their
+                        software solution. I created a mobile application for both iOS and Android using both Xamarin and React Native as a proof of concept in order to test out a mobile application for their
+                        current web software solution. During my summer at <a href="https://www.madisonpg.com/">Madison</a>, I used technologies such as C# and JavaScript.</p>
+                    </li>
+                    <li>
                         <div id="gci">
                             <div class="echeader">
                                 <div id="gciheadertext">
-                                    <h5 id="echeadertitle">⌨️ Contestant in <mark><a href="https://codein.withgoogle.com/archive/">Google Code-In</a></mark> ⌨️</h5>
+                                    <h5 id="echeadertitle">⌨️ Contestant in Google Code-In ⌨️</h5>
                                     <div id="ecsubtitle">
                                         2017-2019
                                     </div>
                                 </div>
                             </div>
-                            <p><mark><a href="https://codein.withgoogle.com/archive/">Google Code-In</a></mark> was an annual online world-wide competition hosted by Google to introduce high school students to open source software development.
+                            <p><a href="https://codein.withgoogle.com/archive/">Google Code-In</a>, was an annual online world-wide competition hosted by Google to introduce high school students to open source software development.
                                 I was a contestant in GCI for 3 events.</p>
                         </div>
                     </li>
@@ -160,16 +163,16 @@
             </div>
         </div>
         <div class="awards">
-            <h2>Awards</h2>
+            <h2 id="awardstitle">Awards</h2>
             <ul id="awardslist">
                 <li>
-                    <h4><mark><a href="https://www.rit.edu/admissions/hsawards#award-descriptions-and-qualifications">RIT Innovation and Creativity Award</a></mark></h4>
+                    <h4><a href="https://www.rit.edu/admissions/hsawards#award-descriptions-and-qualifications">RIT Computing Award</a></h4>
                     <p>2020</p>
                 </li>
             </ul>
         </div>
         <div class="skills">
-            <h2>Skills</h2>
+            <h2 id="skillstitle">Skills</h2>
             <ul>
                 <li>Web Development</li>
                 <p>I have experience with <mark>web technologies</mark> (HTML, CSS, JavaScript), as well as <mark>web frameworks</mark> (React). The website you are viewing now was created entirely by me.</p>
@@ -189,24 +192,8 @@
                 <li>Made with 💖 by me!</li>
             </ul>
         </div>
-        <!--            <div class="contact">-->
-        <!--                <div class="title"><h3>Contact</h3></div>-->
-        <!--                <div class="contactitems">-->
-        <!--                    <div class="contactitem">-->
-        <!--                        <a href="mailto:jokelovehate@gmail.com"><i class="fas fa-envelope"></i></a>-->
-        <!--                    </div>-->
-        <!--                    <div class="contactitem">-->
-        <!--                        <a href="https://github.com/LaughingLove"><i class="fab fa-github"></i></a>-->
-        <!--                    </div>-->
-        <!--                    <div class="contactitem">-->
-        <!--                        <i class="fab fa-discord" title="Satoshi#1337"></i>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
     </main>
 </div>
 <script src="https://kit.fontawesome.com/0f9d86f929.js" crossorigin="anonymous"></script>
-<!--    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
-<!--    <script src="js/menu.js"></script>-->
 </body>
 </html>

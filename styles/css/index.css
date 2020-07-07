@@ -15,8 +15,12 @@ header {
   text-align: center;
   background-color: #6ce4fc;
 }
+header #basicheaderinfo {
+  font-size: 0.8em;
+}
 header img {
-  width: 18em;
+  padding: 1em;
+  width: 12em;
   border-radius: 50%;
 }
 header i {
@@ -27,11 +31,7 @@ header .title h1 {
   font-size: 1.3em;
 }
 header .headertext {
-  padding: 1em;
   font-size: 1.7em;
-}
-header #header-contact {
-  padding: 1em;
 }
 header #header-contact li {
   display: inline;
@@ -50,15 +50,20 @@ header #header-contact a:hover {
   text-align: center;
 }
 
-mark {
-  background-color: rgba(250, 255, 130, 0.7);
+.nav {
+  padding: 1em;
 }
-mark a {
-  text-decoration: none;
+.nav ul li {
+  display: inline;
+  font-size: 1.3em;
+}
+.nav ul li a {
   color: white;
+  text-decoration: none;
 }
-mark a a:hover {
+.nav ul li a:hover {
   text-decoration: underline;
+  color: #88fcf8;
 }
 
 .aboutme {
@@ -77,6 +82,12 @@ mark a a:hover {
 .ec {
   padding: 1em;
   background-color: #02afff;
+}
+.ec #eclist a {
+  color: white;
+}
+.ec #eclist a:hover {
+  color: #88fcf8;
 }
 .ec #ectitle {
   padding: 1em;
@@ -105,15 +116,19 @@ mark a a:hover {
 }
 .awards h2 {
   text-decoration: underline;
-  margin: 1em;
 }
 .awards #awardslist {
   padding: 1em;
 }
 .awards #awardslist li {
   list-style-type: none;
-  border-top: 0.2em solid white;
   border-bottom: 0.2em solid white;
+}
+.awards #awardslist a {
+  color: white;
+}
+.awards #awardslist a:hover {
+  color: #88fcf8;
 }
 
 .skills {
@@ -136,6 +151,25 @@ mark a a:hover {
 }
 .footer li {
   display: inline;
+}
+
+mark {
+  background-color: rgba(250, 255, 130, 0.7);
+}
+mark a {
+  text-decoration: none;
+  color: white;
+}
+mark a a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+  body {
+    font-size: 1em;
+    color: green;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
