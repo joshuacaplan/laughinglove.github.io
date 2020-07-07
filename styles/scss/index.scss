@@ -1,7 +1,7 @@
 $base-color: #222;
-$light-blue: #6ce4fc;
-$hover-blue: #88fcf8;
-$green-blue: #02afff;
+$light-blue: #2596A7;
+$hover: #F6CA83;
+$green: #007A49;
 
 * {
 	padding: 0;
@@ -50,8 +50,8 @@ header {
 		}
 
 		a:hover {
-			color: $hover-blue;
-			border-bottom: 0.02em solid $hover-blue;
+			color: $hover;
+			border-bottom: 0.02em solid $hover;
 		}
 
 	}
@@ -72,7 +72,7 @@ header {
 			}
 			a:hover {
 				text-decoration: underline;
-				color: $hover-blue;
+				color: $hover;
 			}
 		}
 	}
@@ -88,6 +88,13 @@ header {
 		padding: 1em;
 		margin-top: 1em;
 		//font-size: 0.8em;
+		a {
+			color: white;
+			text-decoration: underline;
+		}
+		a:hover {
+			color: $hover;
+		}
 	}
 }
 .ec {
@@ -96,11 +103,11 @@ header {
 			color: white;
 		}
 		a:hover {
-			color: $hover-blue;
+			color: $hover;
 		}
 	}
 	padding: 1em;
-	background-color: $green-blue;
+	background-color: $green;
 	#ectitle {
 		padding: 1em;
 		border-bottom: 0.3em solid white;
@@ -143,7 +150,7 @@ header {
 			color: white;
 		}
 		a:hover {
-			color: $hover-blue;
+			color: $hover;
 		}
 	}
 }

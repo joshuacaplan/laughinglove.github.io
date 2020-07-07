@@ -13,7 +13,7 @@ body {
 header {
   padding: 1em;
   text-align: center;
-  background-color: #6ce4fc;
+  background-color: #2596A7;
 }
 header img {
   padding: 1em;
@@ -42,8 +42,8 @@ header #header-contact a {
   color: inherit;
 }
 header #header-contact a:hover {
-  color: #88fcf8;
-  border-bottom: 0.02em solid #88fcf8;
+  color: #F6CA83;
+  border-bottom: 0.02em solid #F6CA83;
 }
 
 .main {
@@ -62,7 +62,7 @@ header #header-contact a:hover {
 }
 .nav ul li a:hover {
   text-decoration: underline;
-  color: #88fcf8;
+  color: #F6CA83;
 }
 
 .aboutme {
@@ -77,16 +77,23 @@ header #header-contact a:hover {
   padding: 1em;
   margin-top: 1em;
 }
+.aboutme #aboutmetext a {
+  color: white;
+  text-decoration: underline;
+}
+.aboutme #aboutmetext a:hover {
+  color: #F6CA83;
+}
 
 .ec {
   padding: 1em;
-  background-color: #02afff;
+  background-color: #007A49;
 }
 .ec #eclist a {
   color: white;
 }
 .ec #eclist a:hover {
-  color: #88fcf8;
+  color: #F6CA83;
 }
 .ec #ectitle {
   padding: 1em;
@@ -127,12 +134,12 @@ header #header-contact a:hover {
   color: white;
 }
 .awards #awardslist a:hover {
-  color: #88fcf8;
+  color: #F6CA83;
 }
 
 .skills {
   padding: 1.3em;
-  background-color: #6ce4fc;
+  background-color: #2596A7;
 }
 .skills h2 {
   text-decoration: underline;

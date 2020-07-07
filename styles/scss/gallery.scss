@@ -1,0 +1,105 @@
+$base-color: #222;
+$light-blue: #2596A7;
+$hover: #F6CA83;
+$green: #007A49;
+
+// TODO: Add scroll to top button
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	background-color: $base-color;
+}
+header {
+	padding: 1em;
+	text-align: center;
+	ul {
+		list-style: none;
+	}
+	background-color: $light-blue;
+}
+.nav {
+	a {
+		color:white;
+	}
+	a:hover {
+		color:$hover;
+		text-decoration: underline;
+	}
+}
+.gallery {
+	padding: 1.5em;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	//grid-column-gap: 1em;
+}
+.galleryitem {
+	position: relative;
+	img {
+		width: 100%;
+	}
+	p {
+		text-align: center;
+	}
+}
+.galleryitem:hover {
+	top: -5px;
+	filter: drop-shadow(3px 2px 2px $light-blue);
+}
+.footer {
+	margin: 1em;
+	padding: 1em;
+	font-size: 0.8em;
+	ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		//width: 80%;
+	}
+	li {
+		display: inline;
+	}
+}
+
+// Media queries
+@media (min-width: 600px) {
+	.gallery {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 0.5em;
+	}
+	.footer {
+		width: 60%;
+		margin: 0 auto;
+		li {
+			padding: 1em;
+			text-align: center;
+		}
+	}
+}
+
+@media (min-width: 760px) {
+	.gallery {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media (min-width: 900px) {
+	.gallery {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	.footer {
+		width: 50%;
+	}
+}
+// Ultra wide displays
+@media (min-width: 2000px) {
+	.gallery {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+	.footer {
+		width: 40%;
+	}
+}
