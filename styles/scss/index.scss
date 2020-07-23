@@ -144,6 +144,7 @@ header {
 			list-style-type: none;
 			//border-top: 0.2em solid white;
 			border-bottom: 0.2em solid white;
+			padding: 1em;
 
 		}
 		a {
@@ -228,6 +229,18 @@ mark {
 		width: 50%;
 		margin: 0 auto
 	}
+	#awardslist {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1em;
+	}
+	.skills {
+		ul {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-column-gap: 1em;
+		}
+	}
 }
 @media (min-width: 900px) {
 	.aboutme {
@@ -239,13 +252,18 @@ mark {
 		margin: 0 auto;
 	}
 	#awardsinnerdiv {
-		width: 30%;
-		margin: 0 auto;
-	}
-	#skillsinnerdiv {
 		width: 50%;
 		margin: 0 auto;
 	}
+	#skillsinnerdiv {
+		width: 70%;
+		margin: 0 auto;
+	}
+	//#eclist {
+	//	display: grid;
+	//	grid-template-columns: 1fr 1fr 1fr;
+	//}
+
 }
 @media (min-width: 1000px) {
 	#htextphoto {
@@ -263,11 +281,11 @@ mark {
 		margin: 0 auto;
 	}
 	#awardsinnerdiv {
-		width: 30%;
+		width: 40%;
 		margin: 0 auto;
 	}
 	#skillsinnerdiv {
-		width: 30%;
+		width: 50%;
 		margin: 0 auto;
 	}
 }

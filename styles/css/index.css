@@ -129,6 +129,7 @@ header #header-contact a:hover {
 .awards #awardslist li {
   list-style-type: none;
   border-bottom: 0.2em solid white;
+  padding: 1em;
 }
 .awards #awardslist a {
   color: white;
@@ -212,6 +213,18 @@ mark a a:hover {
     width: 50%;
     margin: 0 auto;
   }
+
+  #awardslist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+  }
+
+  .skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+  }
 }
 @media (min-width: 900px) {
   .aboutme {
@@ -225,12 +238,12 @@ mark a a:hover {
   }
 
   #awardsinnerdiv {
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
   }
 
   #skillsinnerdiv {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
   }
 }
@@ -252,12 +265,12 @@ mark a a:hover {
   }
 
   #awardsinnerdiv {
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
   }
 
   #skillsinnerdiv {
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
   }
 }
