@@ -35,6 +35,7 @@ header ul {
 
 .galleryitem {
   position: relative;
+  padding: 1em;
 }
 .galleryitem img {
   width: 100%;
