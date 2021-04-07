@@ -9,6 +9,13 @@ body {
   color: white;
   font-size: 1em;
 }
+body a {
+  color: white;
+  text-decoration: underline;
+}
+body a:hover {
+  color: #F6CA83;
+}
 
 header {
   padding: 1em;
@@ -85,57 +92,32 @@ header #header-contact a:hover {
   color: #F6CA83;
 }
 
-.ec {
-  padding: 1em;
+.projects {
   background-color: #007A49;
-}
-.ec #eclist a {
-  color: white;
-}
-.ec #eclist a:hover {
-  color: #F6CA83;
-}
-.ec #ectitle {
   padding: 1em;
-  border-bottom: 0.3em solid white;
 }
-.ec ul {
+.projects ul {
   list-style-type: none;
 }
-.ec li {
+.projects .card-links {
+  padding: 0.5em;
+}
+.projects .card-links i {
+  font-size: 2em;
+}
+.projects .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  background-color: #00b56c;
+  margin: 1em;
   padding: 1em;
+  border-radius: 3%;
 }
-.ec .echeader {
-  border-bottom: 0.1em solid white;
-}
-.ec #echeadertitle {
-  font-size: 1.2em;
+.projects .card .card-title {
   text-decoration: underline;
 }
-.ec img {
-  margin: auto;
-  width: 10em;
-}
-
-.awards {
-  padding: 1em;
-}
-.awards h2 {
-  text-decoration: underline;
-}
-.awards #awardslist {
-  padding: 1em;
-}
-.awards #awardslist li {
-  list-style-type: none;
-  border-bottom: 0.2em solid white;
-  padding: 1em;
-}
-.awards #awardslist a {
-  color: white;
-}
-.awards #awardslist a:hover {
-  color: #F6CA83;
+.projects .card:hover {
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.6);
 }
 
 .skills {
@@ -214,12 +196,6 @@ mark a a:hover {
     margin: 0 auto;
   }
 
-  #awardslist {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1em;
-  }
-
   .skills ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -229,16 +205,6 @@ mark a a:hover {
 @media (min-width: 900px) {
   .aboutme {
     width: 70%;
-    margin: 0 auto;
-  }
-
-  #ecinnerdiv {
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  #awardsinnerdiv {
-    width: 50%;
     margin: 0 auto;
   }
 
@@ -259,16 +225,6 @@ mark a a:hover {
     margin: 0 auto;
   }
 
-  #ecinnerdiv {
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  #awardsinnerdiv {
-    width: 40%;
-    margin: 0 auto;
-  }
-
   #skillsinnerdiv {
     width: 50%;
     margin: 0 auto;
@@ -281,14 +237,6 @@ mark a a:hover {
 
   .aboutme {
     width: 70em;
-  }
-
-  #ecinnerdiv {
-    width: 70em;
-  }
-
-  #awardsinnerdiv {
-    width: 50em;
   }
 
   #skillsinnerdiv {
