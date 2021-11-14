@@ -116,6 +116,13 @@ header #header-contact a:hover {
 .projects .card .card-title {
   text-decoration: underline;
 }
+.projects .card .card-links {
+  display: flex;
+  justify-content: center;
+}
+.projects .card .card-links li {
+  margin: 1em;
+}
 .projects .card:hover {
   box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.6);
 }
@@ -217,6 +224,11 @@ mark a a:hover {
   #htextphoto {
     width: 50%;
     margin: 0 auto;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media (min-width: 1300px) {

@@ -128,6 +128,13 @@ header {
 		.card-title {
 			text-decoration: underline;
 		}
+		.card-links {
+			display: flex;
+			justify-content: center;
+			li {
+				margin: 1em;
+			}
+		}
 	}
 	.card:hover {
 		box-shadow: 0 8px 15px 0 rgba(0,0,0,0.6);
@@ -148,7 +155,6 @@ header {
 	}
 	p {
 		margin-bottom: 1em;
-		//font-size: 0.8em;
 	}
 }
 .footer {
@@ -230,6 +236,10 @@ mark {
 	#htextphoto {
 		width: 50%;
 		margin: 0 auto;
+	}
+	.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
 @media (min-width: 1300px) {
