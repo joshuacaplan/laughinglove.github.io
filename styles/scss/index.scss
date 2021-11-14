@@ -12,6 +12,14 @@ body {
 	background-color: $base-color;
 	color: white;
 	font-size: 1em;
+
+	a {
+		color: white;
+		text-decoration: underline;
+	}
+	a:hover {
+		color: $hover;
+	}
 }
 header {
 	padding: 1em;
@@ -97,62 +105,39 @@ header {
 		}
 	}
 }
-.ec {
-	#eclist {
-		a {
-			color: white;
-		}
-		a:hover {
-			color: $hover;
-		}
-	}
-	padding: 1em;
+.projects {
 	background-color: $green;
-	#ectitle {
-		padding: 1em;
-		border-bottom: 0.3em solid white;
-	}
+	padding: 1em;
 	ul {
 		list-style-type: none;
 	}
-	li {
-		padding: 1em;
+	.card-links {
+		padding: 0.5em;
+		i {
+			font-size: 2em;
+		}
 	}
-	.echeader {
-		border-bottom: 0.1em solid white;
-	}
-	#echeadertitle {
-		font-size: 1.2em;
-		text-decoration: underline;
 
-	}
-	img {
-		margin: auto;
-		width: 10em;
-	}
-}
-.awards {
-	padding: 1em;
-	h2 {
-		text-decoration: underline;
-		//margin: 1em;
-	}
-	#awardslist {
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+		transition: 0.3s;
+		background-color: #00b56c;
+		margin: 1em;
 		padding: 1em;
-		li {
-			//padding: 1em;
-			list-style-type: none;
-			//border-top: 0.2em solid white;
-			border-bottom: 0.2em solid white;
-			padding: 1em;
-
+		border-radius: 3%;
+		.card-title {
+			text-decoration: underline;
 		}
-		a {
-			color: white;
+		.card-links {
+			display: flex;
+			justify-content: center;
+			li {
+				margin: 1em;
+			}
 		}
-		a:hover {
-			color: $hover;
-		}
+	}
+	.card:hover {
+		box-shadow: 0 8px 15px 0 rgba(0,0,0,0.6);
 	}
 }
 .skills {
@@ -170,7 +155,6 @@ header {
 	}
 	p {
 		margin-bottom: 1em;
-		//font-size: 0.8em;
 	}
 }
 .footer {
@@ -229,11 +213,6 @@ mark {
 		width: 50%;
 		margin: 0 auto
 	}
-	#awardslist {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 1em;
-	}
 	.skills {
 		ul {
 			display: grid;
@@ -247,22 +226,10 @@ mark {
 		width: 70%;
 		margin: 0 auto;
 	}
-	#ecinnerdiv {
-		width: 70%;
-		margin: 0 auto;
-	}
-	#awardsinnerdiv {
-		width: 50%;
-		margin: 0 auto;
-	}
 	#skillsinnerdiv {
 		width: 70%;
 		margin: 0 auto;
 	}
-	//#eclist {
-	//	display: grid;
-	//	grid-template-columns: 1fr 1fr 1fr;
-	//}
 
 }
 @media (min-width: 1000px) {
@@ -270,18 +237,14 @@ mark {
 		width: 50%;
 		margin: 0 auto;
 	}
+	.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 @media (min-width: 1300px) {
 	.aboutme {
 		width: 50%;
-		margin: 0 auto;
-	}
-	#ecinnerdiv {
-		width: 50%;
-		margin: 0 auto;
-	}
-	#awardsinnerdiv {
-		width: 40%;
 		margin: 0 auto;
 	}
 	#skillsinnerdiv {
@@ -296,12 +259,6 @@ mark {
 	}
 	.aboutme {
 		width: 70em;
-	}
-	#ecinnerdiv {
-		width: 70em;
-	}
-	#awardsinnerdiv {
-		width: 50em;
 	}
 	#skillsinnerdiv {
 		width: 60em;
