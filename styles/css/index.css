@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -160,14 +161,7 @@ header #header-contact a:hover {
 
 mark {
   background-color: rgba(250, 255, 130, 0.7);
-}
-mark a {
-  text-decoration: none;
-  color: white;
-}
-mark a a:hover {
-  color: white;
-  text-decoration: underline;
+  color: antiquewhite;
 }
 
 @media (min-width: 650px) {

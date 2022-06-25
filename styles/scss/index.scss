@@ -7,6 +7,7 @@ $green: #007A49;
 	padding: 0;
   	margin: 0;
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 body {
 	background-color: $base-color;
@@ -172,15 +173,7 @@ header {
 }
 mark {
 	background-color: rgba(250, 255, 130, 0.7);
-	a {
-		text-decoration: none;
-		color: white;
-		a:hover {
-			color:white;
-			text-decoration: underline;
-		}
-	}
-
+	color: antiquewhite;
 }
 
 // MEDIA QUERIES

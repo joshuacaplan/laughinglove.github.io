@@ -21,18 +21,22 @@
 <!--If you are checking, yes, this entire website was made by me. No bootstrap-->
 <div class="mainwrapper">
     <header class="header">
+        <div id="particles-js"></div>
         <div id="htextphoto">
             <div class="headertext">
                 <div class="title"><h1>Joshua Caplan</h1></div>
                 <div id="basicheaderinfo">
                     <p>📌 New York, USA</p>
-                    <p>📅 18 years old</p>
+                    <p>📅 19 years old</p>
                     <p>🖥️ Aspiring software engineer</p>
                 </div>
                 <ul id="header-contact">
 <!--                    <li>-->
 <!--                        <a href="mailto:jokelovehate@gmail.com"><i class="fas fa-envelope"></i></a>-->
 <!--                    </li>-->
+                    <li>
+                        <a href="https://www.linkedin.com/in/josh-caplan-80/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
                     <li>
                         <a href="https://github.com/laughinglove"><i class="fab fa-github"></i></a>
                     </li>
@@ -60,8 +64,9 @@
             <h2 id="aboutmetitle">About me</h2>
             <div id="aboutmetext">
                 <div>
-                    <p>I'm a freshman at Cornell University studying Computer Science. I am a developer and I like to create projects for the benefit of others.
-                        My favorite technology at the moment is <mark>Python3</mark>. My interests right now are in <mark>data science/machine learning</mark>, <mark>cyber security</mark>, and <mark>AI</mark>.</p>
+                    <p>I'm a sophomore at Cornell University studying Computer Science. I am a developer, and I like to create projects for the benefit of others.
+                        My favorite technology at the moment is <mark>Python</mark>.
+                        My interests right now are in <mark>data science/machine learning</mark>, <mark>software engineering</mark>, and <mark>AI</mark>.</p>
                 </div>
                 <br>
                 <div>
@@ -79,7 +84,7 @@
                     <h3 class="card-title">FACEIT API Python Wrapper</h3>
                     <div class="card-description">
                         <p>
-                            Using python3 I made an API wrapper for <a href="https://www.faceit.com/en" class="link-highlight">FACEIT</a> so that it was easier to use it in Python
+                            Using Python I made an API wrapper for <a href="https://www.faceit.com/en" class="link-highlight">FACEIT</a> so that it was easier to use it in Python
                             for other projects. In my case, I made the wrapper in order to make a Faceit Discord bot.
                         </p>
                     </div>
@@ -91,7 +96,7 @@
                     <h3 class="card-title">FACEIT Discord Bot</h3>
                     <div class="card-description">
                         <p>
-                            Using python3 and the <a href="https://www.faceit.com/en" class="link-highlight">FACEIT</a> API wrapper I made, I created this discord bot to easily access statistics and information
+                            Using Python and the <a href="https://www.faceit.com/en" class="link-highlight">FACEIT</a> API wrapper I made, I created this discord bot to easily access statistics and information
                             about other FACEIT members and FACEIT games. This was beneficial for CS:GO pick up games, so I can easily look up
                             useful information about my opponents.
                         </p>
@@ -104,7 +109,7 @@
                     <h3 class="card-title">anon-bot</h3>
                     <div class="card-description">
                         <p>
-                            Using python3 and in collaboration with three other people, we created an anonymous Discord
+                            Using Python and in collaboration with three other people, we created an anonymous Discord
                             messaging bot. You would be able to send anonymous messages to people in a guild.
                         </p>
                     </div>
@@ -112,6 +117,48 @@
                         <li><a href="https://github.com/LaughingLove/anon-bot"><i class="fab fa-github"></i></a></li>
                     </ul>
                 </div>
+                <!-- Misc -->
+                <div class="card">
+                    <h3 class="card-title">Automatic Web Scraping and Emailer for HackBusters.com</h3>
+                    <div class="card-description">
+                        <p>
+                            <a href="https://hackbusters.com">HackBusters</a> is a website that gives you the latest
+                            news on cyber-security events. I created a web scraper that would periodically scrape the
+                            website for the latest news and send an email update with the latest articles. This app
+                            was developed in Python using <a href="https://www.selenium.dev/">Selenium</a> as the
+                            scraping tool.
+                        </p>
+                    </div>
+                    <ul class="card-links">
+                        <li><a href="https://github.com/LaughingLove/Hackbuster-Scraper"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">VirusTotal Command-Line Interface</h3>
+                    <div class="card-description">
+                        <p>
+                            I created a command-line interface for <a href="https://virustotal.com">VirusTotal</a>. It gives you
+                            the functionality to scan a local file or to get a report of a file. This app was developed
+                            in Python.
+                        </p>
+                    </div>
+                    <ul class="card-links">
+                        <li><a href="https://github.com/LaughingLove/virustotal-scanner"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">iPhone Calculator</h3>
+                    <div class="card-description">
+                        <p>
+                            Using SwiftUI, I created a replica of iPhone's calculator app. This was created so I can
+                            better understand how to use SwiftUI
+                        </p>
+                    </div>
+                    <ul class="card-links">
+                        <li><a href="https://github.com/LaughingLove/MyBasicCalculator"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <!-- Websites -->
                 <div class="card">
                     <h3 class="card-title">Custom Website</h3>
                     <div class="card-description">
@@ -121,8 +168,20 @@
                         </p>
                     </div>
                     <ul class="card-links">
-                        <li><a href="http://www.elliepotato.de/index.html"><i class="fas fa-globe"></i></a></li>
+                        <li><a href="https://joshcaplan.me/ellies-website/"><i class="fas fa-globe"></i></a></li>
                         <li><a href="https://github.com/LaughingLove/ellies-website"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">My Website</h3>
+                    <div class="card-description">
+                        <p>
+                            I developed this website using HTML5, CSS, and JavaScript using a mobile-first approach
+                            to create a simple and sleek landing page to show off my projects and capabilities as a software engineer.
+                        </p>
+                    </div>
+                    <ul class="card-links">
+                        <li><a href="#"><i class="fas fa-globe"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -140,9 +199,8 @@
                         <p>I am experienced with programming languages such as: Java, Python, Swift, C#, and JavaScript.</p>
                     </div>
                     <div>
-                        <li>Cyber Security</li>
-                        <p>I am currently learning how to secure servers and computers from cyber threats. I am learning how to pen-test, as well as networking and system administration
-                            so I can help others be more security conscious.</p>
+                        <li>Data Science/Machine Learning</li>
+                        <p>I am currently taking courses learning more on the basics of machine learning and data science.</p>
                     </div>
 
                 </ul>
@@ -150,7 +208,7 @@
         </div>
         <div class="footer">
             <ul>
-                <li>&copy Joshua Caplan 2021</li>
+                <li>&copy Joshua Caplan 2022</li>
                 <li>Made with 💖 by me!</li>
             </ul>
         </div>
