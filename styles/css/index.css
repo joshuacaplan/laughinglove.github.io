@@ -5,6 +5,32 @@
   scroll-behavior: smooth;
 }
 
+#scrollTopBtn {
+  transition: all 0.5s ease;
+  color: white;
+  background-color: #f56262;
+  position: fixed;
+  z-index: 100;
+  bottom: 2em;
+  right: 2em;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+#scrollTopBtn a {
+  text-decoration: none;
+}
+#scrollTopBtn i {
+  font-size: 2em;
+}
+
+.fade {
+  opacity: 0;
+}
+
 body {
   background-color: #222;
   color: white;

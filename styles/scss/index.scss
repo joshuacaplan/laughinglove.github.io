@@ -9,6 +9,31 @@ $green: #007A49;
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
+// Button
+#scrollTopBtn {
+	a {
+		text-decoration: none;
+	}
+	i {
+		font-size: 2em;
+	}
+	transition: all .5s ease;
+	color: white;
+	background-color: #f56262;
+	position: fixed;
+	z-index: 100;
+	bottom: 2em;
+	right: 2em;
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;
+	outline: none;
+	cursor: pointer;
+	border: none;
+}
+.fade {
+	opacity: 0;
+}
 body {
 	background-color: $base-color;
 	color: white;
